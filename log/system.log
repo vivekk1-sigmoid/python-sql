@@ -1,0 +1,122 @@
+2022-03-08 21:48:59,282:ERROR:Unable to connect the database
+2022-03-08 21:48:59,282:ERROR:Query failed - select emp1.empno, emp1.ename, emp2.ename from emp as emp1 INNER JOIN emp as emp2 on (emp1.mgr = emp2.empno);
+2022-03-08 21:48:59,282:DEBUG:Query Executed- select emp1.empno, emp1.ename, emp2.ename from emp as emp1 INNER JOIN emp as emp2 on (emp1.mgr = emp2.empno);
+2022-03-08 21:48:59,282:ERROR:Unable to close cursor and connection
+2022-03-08 21:48:59,283:ERROR:Length mismatch: Expected axis has 0 elements, new values have 3 elements
+2022-03-08 21:48:59,283:ERROR:Unable to connect the database
+2022-03-08 21:48:59,283:ERROR:Update failed - UPDATE jobhist SET enddate = current_date            where enddate is NULL;
+2022-03-08 21:48:59,283:DEBUG:Query Executed- UPDATE jobhist SET enddate = current_date            where enddate is NULL;
+2022-03-08 21:48:59,283:ERROR:Unable to close cursor and connection
+2022-03-08 21:48:59,283:ERROR:Unable to connect the database
+2022-03-08 21:48:59,284:ERROR:Query failed - SELECT emp.ename, jh.empno, dept.dname,round((jh.enddate - jh.startdate)/30) * jh.sal as total_compensation,round((enddate - startdate)/30) as emp_month_spent from jobhist as jh inner join emp on (jh.empno = emp.empno) inner join dept on (jh.deptno = dept.deptno);
+2022-03-08 21:48:59,284:DEBUG:Query Executed- SELECT emp.ename, jh.empno, dept.dname,round((jh.enddate - jh.startdate)/30) * jh.sal as total_compensation,round((enddate - startdate)/30) as emp_month_spent from jobhist as jh inner join emp on (jh.empno = emp.empno) inner join dept on (jh.deptno = dept.deptno);
+2022-03-08 21:48:59,284:ERROR:Unable to close cursor and connection
+2022-03-08 21:48:59,284:ERROR:Length mismatch: Expected axis has 0 elements, new values have 5 elements
+2022-03-08 21:48:59,284:ERROR:Unable to connect the database
+2022-03-08 21:48:59,284:ERROR:Query failed - SELECT emp.ename, jh.empno, dept.dname,round((jh.enddate - jh.startdate)/30) * jh.sal as total_compensation,round((enddate - startdate)/30) as emp_month_spent from jobhist as jh inner join emp on (jh.empno = emp.empno) inner join dept on (jh.deptno = dept.deptno);
+2022-03-08 21:48:59,284:DEBUG:Query Executed- SELECT emp.ename, jh.empno, dept.dname,round((jh.enddate - jh.startdate)/30) * jh.sal as total_compensation,round((enddate - startdate)/30) as emp_month_spent from jobhist as jh inner join emp on (jh.empno = emp.empno) inner join dept on (jh.deptno = dept.deptno);
+2022-03-08 21:48:59,284:ERROR:Unable to close cursor and connection
+2022-03-08 21:48:59,320:ERROR:[Errno 2] No such file or directory: '/Users/vivek/Downloads/Git-Assignment/python-sql/data/task_2.xlsx'
+2022-03-08 21:48:59,320:ERROR:Unable to connect the database
+2022-03-08 21:48:59,320:ERROR:Query failed - select * from task_2_duplicate
+2022-03-08 21:48:59,320:DEBUG:Query Executed- select * from task_2_duplicate
+2022-03-08 21:48:59,320:ERROR:Unable to close cursor and connection
+2022-03-08 21:48:59,320:ERROR:Unable to connect the database
+2022-03-08 21:48:59,320:ERROR:Query failed - SELECT emp.ename, jh.empno, dept.dname,dept.deptno,round((jh.enddate - jh.startdate)/30) * jh.sal as total_compensation,round((enddate - startdate)/30) as emp_month_spent from jobhist as jh inner join emp on (jh.empno = emp.empno) inner join dept on (jh.deptno = dept.deptno);
+2022-03-08 21:48:59,320:DEBUG:Query Executed- SELECT emp.ename, jh.empno, dept.dname,dept.deptno,round((jh.enddate - jh.startdate)/30) * jh.sal as total_compensation,round((enddate - startdate)/30) as emp_month_spent from jobhist as jh inner join emp on (jh.empno = emp.empno) inner join dept on (jh.deptno = dept.deptno);
+2022-03-08 21:48:59,320:ERROR:Unable to close cursor and connection
+2022-03-08 21:48:59,321:ERROR:Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2022-03-08 21:48:59,321:ERROR:[Errno 2] No such file or directory: '/Users/vivek/Downloads/Git-Assignment/python-sql/data/task_2_4.xlsx'
+2022-03-08 21:50:13,085:ERROR:Unable to connect the database
+2022-03-08 21:50:13,085:ERROR:Query failed - select emp1.empno, emp1.ename, emp2.ename from emp as emp1 INNER JOIN emp as emp2 on (emp1.mgr = emp2.empno);
+2022-03-08 21:50:13,085:DEBUG:Query Executed- select emp1.empno, emp1.ename, emp2.ename from emp as emp1 INNER JOIN emp as emp2 on (emp1.mgr = emp2.empno);
+2022-03-08 21:50:13,085:ERROR:Unable to close cursor and connection
+2022-03-08 21:50:13,085:ERROR:Length mismatch: Expected axis has 0 elements, new values have 3 elements
+2022-03-08 21:50:13,085:ERROR:Unable to connect the database
+2022-03-08 21:50:13,085:ERROR:Update failed - UPDATE jobhist SET enddate = current_date            where enddate is NULL;
+2022-03-08 21:50:13,085:DEBUG:Query Executed- UPDATE jobhist SET enddate = current_date            where enddate is NULL;
+2022-03-08 21:50:13,085:ERROR:Unable to close cursor and connection
+2022-03-08 21:50:13,085:ERROR:Unable to connect the database
+2022-03-08 21:50:13,085:ERROR:Query failed - SELECT emp.ename, jh.empno, dept.dname,round((jh.enddate - jh.startdate)/30) * jh.sal as total_compensation,round((enddate - startdate)/30) as emp_month_spent from jobhist as jh inner join emp on (jh.empno = emp.empno) inner join dept on (jh.deptno = dept.deptno);
+2022-03-08 21:50:13,086:DEBUG:Query Executed- SELECT emp.ename, jh.empno, dept.dname,round((jh.enddate - jh.startdate)/30) * jh.sal as total_compensation,round((enddate - startdate)/30) as emp_month_spent from jobhist as jh inner join emp on (jh.empno = emp.empno) inner join dept on (jh.deptno = dept.deptno);
+2022-03-08 21:50:13,086:ERROR:Unable to close cursor and connection
+2022-03-08 21:50:13,086:ERROR:Length mismatch: Expected axis has 0 elements, new values have 5 elements
+2022-03-08 21:50:13,086:ERROR:Unable to connect the database
+2022-03-08 21:50:13,086:ERROR:Query failed - SELECT emp.ename, jh.empno, dept.dname,round((jh.enddate - jh.startdate)/30) * jh.sal as total_compensation,round((enddate - startdate)/30) as emp_month_spent from jobhist as jh inner join emp on (jh.empno = emp.empno) inner join dept on (jh.deptno = dept.deptno);
+2022-03-08 21:50:13,086:DEBUG:Query Executed- SELECT emp.ename, jh.empno, dept.dname,round((jh.enddate - jh.startdate)/30) * jh.sal as total_compensation,round((enddate - startdate)/30) as emp_month_spent from jobhist as jh inner join emp on (jh.empno = emp.empno) inner join dept on (jh.deptno = dept.deptno);
+2022-03-08 21:50:13,086:ERROR:Unable to close cursor and connection
+2022-03-08 21:50:13,101:ERROR:[Errno 2] No such file or directory: '/Users/vivek/Downloads/Git-Assignment/python-sql/data/task_2.xlsx'
+2022-03-08 21:50:13,101:ERROR:Unable to connect the database
+2022-03-08 21:50:13,101:ERROR:Query failed - select * from task_2_duplicate
+2022-03-08 21:50:13,101:DEBUG:Query Executed- select * from task_2_duplicate
+2022-03-08 21:50:13,101:ERROR:Unable to close cursor and connection
+2022-03-08 21:50:13,101:ERROR:Unable to connect the database
+2022-03-08 21:50:13,101:ERROR:Query failed - SELECT emp.ename, jh.empno, dept.dname,dept.deptno,round((jh.enddate - jh.startdate)/30) * jh.sal as total_compensation,round((enddate - startdate)/30) as emp_month_spent from jobhist as jh inner join emp on (jh.empno = emp.empno) inner join dept on (jh.deptno = dept.deptno);
+2022-03-08 21:50:13,101:DEBUG:Query Executed- SELECT emp.ename, jh.empno, dept.dname,dept.deptno,round((jh.enddate - jh.startdate)/30) * jh.sal as total_compensation,round((enddate - startdate)/30) as emp_month_spent from jobhist as jh inner join emp on (jh.empno = emp.empno) inner join dept on (jh.deptno = dept.deptno);
+2022-03-08 21:50:13,101:ERROR:Unable to close cursor and connection
+2022-03-08 21:50:13,101:ERROR:Length mismatch: Expected axis has 0 elements, new values have 6 elements
+2022-03-08 21:50:13,102:ERROR:[Errno 2] No such file or directory: '/Users/vivek/Downloads/Git-Assignment/python-sql/data/task_2_4.xlsx'
+2022-03-08 21:54:04,516:ERROR:Unable to connect the database
+2022-03-08 21:54:04,516:ERROR:Query failed - select emp1.empno, emp1.ename, emp2.ename from emp as emp1 INNER JOIN emp as emp2 on (emp1.mgr = emp2.empno);
+2022-03-08 21:54:04,516:DEBUG:Query Executed- select emp1.empno, emp1.ename, emp2.ename from emp as emp1 INNER JOIN emp as emp2 on (emp1.mgr = emp2.empno);
+2022-03-08 21:54:04,516:ERROR:Unable to close cursor and connection
+2022-03-08 21:54:04,517:ERROR:Length mismatch: Expected axis has 0 elements, new values have 3 elements
+2022-03-08 22:05:29,387:ERROR:Unable to connect the database
+2022-03-08 22:05:29,387:ERROR:Query failed - select emp1.empno, emp1.ename, emp2.ename from emp as emp1 INNER JOIN emp as emp2 on (emp1.mgr = emp2.empno);
+2022-03-08 22:05:29,387:DEBUG:Query Executed- select emp1.empno, emp1.ename, emp2.ename from emp as emp1 INNER JOIN emp as emp2 on (emp1.mgr = emp2.empno);
+2022-03-08 22:05:29,387:ERROR:Unable to close cursor and connection
+2022-03-08 22:05:29,389:ERROR:Length mismatch: Expected axis has 0 elements, new values have 3 elements
+2022-03-08 22:06:33,472:ERROR:Unable to connect the database
+2022-03-08 22:06:33,472:ERROR:Query failed - select emp1.empno, emp1.ename, emp2.ename from emp as emp1 INNER JOIN emp as emp2 on (emp1.mgr = emp2.empno);
+2022-03-08 22:06:33,472:DEBUG:Query Executed- select emp1.empno, emp1.ename, emp2.ename from emp as emp1 INNER JOIN emp as emp2 on (emp1.mgr = emp2.empno);
+2022-03-08 22:06:33,472:ERROR:Unable to close cursor and connection
+2022-03-08 22:06:33,473:ERROR:Length mismatch: Expected axis has 0 elements, new values have 3 elements
+2022-03-08 22:08:04,535:ERROR:Unable to connect the database
+2022-03-08 22:08:04,537:ERROR:Query failed - select emp1.empno, emp1.ename, emp2.ename from emp as emp1 INNER JOIN emp as emp2 on (emp1.mgr = emp2.empno);
+2022-03-08 22:08:04,537:DEBUG:Query Executed- select emp1.empno, emp1.ename, emp2.ename from emp as emp1 INNER JOIN emp as emp2 on (emp1.mgr = emp2.empno);
+2022-03-08 22:08:04,538:ERROR:Unable to close cursor and connection
+2022-03-08 22:08:04,539:ERROR:Length mismatch: Expected axis has 0 elements, new values have 3 elements
+2022-03-08 22:08:36,096:INFO:Database Connected
+2022-03-08 22:08:36,099:INFO:Query executed - select emp1.empno, emp1.ename, emp2.ename from emp as emp1 INNER JOIN emp as emp2 on (emp1.mgr = emp2.empno);
+2022-03-08 22:08:36,099:DEBUG:Query Executed- select emp1.empno, emp1.ename, emp2.ename from emp as emp1 INNER JOIN emp as emp2 on (emp1.mgr = emp2.empno);
+2022-03-08 22:08:36,099:INFO:Cursor and Connection Closed
+2022-03-08 22:08:36,101:ERROR:No module named 'openpyxl'
+2022-03-08 22:10:23,787:INFO:Database Connected
+2022-03-08 22:10:23,791:INFO:Query executed - select emp1.empno, emp1.ename, emp2.ename from emp as emp1 INNER JOIN emp as emp2 on (emp1.mgr = emp2.empno);
+2022-03-08 22:10:23,791:DEBUG:Query Executed- select emp1.empno, emp1.ename, emp2.ename from emp as emp1 INNER JOIN emp as emp2 on (emp1.mgr = emp2.empno);
+2022-03-08 22:10:23,791:INFO:Cursor and Connection Closed
+2022-03-08 22:10:24,384:INFO:Loaded to xlxs
+2022-03-08 22:10:50,350:INFO:Database Connected
+2022-03-08 22:10:50,354:INFO:Query executed - select emp1.empno, emp1.ename, emp2.ename from emp as emp1 INNER JOIN emp as emp2 on (emp1.mgr = emp2.empno);
+2022-03-08 22:10:50,354:DEBUG:Query Executed- select emp1.empno, emp1.ename, emp2.ename from emp as emp1 INNER JOIN emp as emp2 on (emp1.mgr = emp2.empno);
+2022-03-08 22:10:50,354:INFO:Cursor and Connection Closed
+2022-03-08 22:10:50,447:INFO:Loaded to xlxs
+2022-03-08 22:10:50,454:INFO:Database Connected
+2022-03-08 22:10:50,458:INFO:Update done - UPDATE jobhist SET enddate = current_date            where enddate is NULL;
+2022-03-08 22:10:50,458:DEBUG:Query Executed- UPDATE jobhist SET enddate = current_date            where enddate is NULL;
+2022-03-08 22:10:50,458:INFO:Cursor and Connection Closed
+2022-03-08 22:10:50,466:INFO:Database Connected
+2022-03-08 22:10:50,475:INFO:Query executed - SELECT emp.ename, jh.empno, dept.dname,round((jh.enddate - jh.startdate)/30) * jh.sal as total_compensation,round((enddate - startdate)/30) as emp_month_spent from jobhist as jh inner join emp on (jh.empno = emp.empno) inner join dept on (jh.deptno = dept.deptno);
+2022-03-08 22:10:50,475:DEBUG:Query Executed- SELECT emp.ename, jh.empno, dept.dname,round((jh.enddate - jh.startdate)/30) * jh.sal as total_compensation,round((enddate - startdate)/30) as emp_month_spent from jobhist as jh inner join emp on (jh.empno = emp.empno) inner join dept on (jh.deptno = dept.deptno);
+2022-03-08 22:10:50,475:INFO:Cursor and Connection Closed
+2022-03-08 22:10:50,483:INFO:Loaded to xlxs
+2022-03-08 22:10:50,490:INFO:Database Connected
+2022-03-08 22:10:50,502:INFO:Query executed - SELECT emp.ename, jh.empno, dept.dname,round((jh.enddate - jh.startdate)/30) * jh.sal as total_compensation,round((enddate - startdate)/30) as emp_month_spent from jobhist as jh inner join emp on (jh.empno = emp.empno) inner join dept on (jh.deptno = dept.deptno);
+2022-03-08 22:10:50,502:DEBUG:Query Executed- SELECT emp.ename, jh.empno, dept.dname,round((jh.enddate - jh.startdate)/30) * jh.sal as total_compensation,round((enddate - startdate)/30) as emp_month_spent from jobhist as jh inner join emp on (jh.empno = emp.empno) inner join dept on (jh.deptno = dept.deptno);
+2022-03-08 22:10:50,502:INFO:Cursor and Connection Closed
+2022-03-08 22:10:50,568:ERROR:(psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+2022-03-08 22:10:50,575:INFO:Database Connected
+2022-03-08 22:10:50,575:ERROR:Query failed - select * from task_2_duplicate
+2022-03-08 22:10:50,575:DEBUG:Query Executed- select * from task_2_duplicate
+2022-03-08 22:10:50,575:INFO:Cursor and Connection Closed
+2022-03-08 22:10:50,581:INFO:Database Connected
+2022-03-08 22:10:50,587:INFO:Query executed - SELECT emp.ename, jh.empno, dept.dname,dept.deptno,round((jh.enddate - jh.startdate)/30) * jh.sal as total_compensation,round((enddate - startdate)/30) as emp_month_spent from jobhist as jh inner join emp on (jh.empno = emp.empno) inner join dept on (jh.deptno = dept.deptno);
+2022-03-08 22:10:50,598:DEBUG:Query Executed- SELECT emp.ename, jh.empno, dept.dname,dept.deptno,round((jh.enddate - jh.startdate)/30) * jh.sal as total_compensation,round((enddate - startdate)/30) as emp_month_spent from jobhist as jh inner join emp on (jh.empno = emp.empno) inner join dept on (jh.deptno = dept.deptno);
+2022-03-08 22:10:50,598:INFO:Cursor and Connection Closed
+2022-03-08 22:10:50,608:INFO:Loaded to xlxs
+2022-03-08 22:10:50,623:INFO:Task 4 completed!!!
