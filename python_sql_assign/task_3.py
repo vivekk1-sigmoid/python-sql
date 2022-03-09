@@ -7,7 +7,7 @@ from python_to_postgres import MyDatabase
 
 def task_3_put_data():
     try:
-        engine = create_engine("postgresql://postgres:9431@localhost:5432/employees")
+        engine = create_engine("postgresql://postgres:9431@localhost:5433/employees")
         Session = sessionmaker(bind=engine)
 
         with Session() as session:

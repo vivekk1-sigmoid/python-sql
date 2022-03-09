@@ -1,5 +1,5 @@
 import unittest
-from app.main_db import MyDatabase
+from python_sql_assign.python_to_postgres import MyDatabase
 
 
 class TestClass(unittest.TestCase):
